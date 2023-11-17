@@ -70,6 +70,7 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
+
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 
@@ -128,6 +129,9 @@
                           <li>
                             <a href="#" class="nav-link active"> Home </a>
                           </li>
+                          <li>
+                            <a href="about-bijoyatra.html" class="nav-link"> About Us </a>
+                          </li>
                           <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle"
                               >Activities</a
@@ -152,9 +156,7 @@
                           <li>
                             <a
                               class="nav-link"
-                              target="_blank"
-                              href="/docs/Bijoace.pdf"
-                              download="E-Magazine"
+                              href="bijoaceflip.html"
                             >
                               E-Magazine
                             </a>
@@ -274,18 +276,18 @@
           <div
             class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme nav-inside manual nav-style-1 nav-arrows-thin nav-font-size-lg custom-nav-1 custom-nav-1-pos-4 p-relative mb-0"
             data-plugin-options="{'autoplay': true, 'autoplayTimeout': 7000}"
-            data-dynamic-height="['calc(100vh - 305px)','calc(100vh - 305px)','calc(100vh - 305px)','calc(100vh - 305px)','calc(100vh - 305px)']"
-            style="height: calc(100vh - 305px)"
+            data-dynamic-height="['calc(100vh - 250px)','calc(100vh - 250px)','calc(100vh - 250px)','calc(100vh - 250px)','calc(100vh - 250px)']"
+            style="height: calc(100vh - 250px)"
           >
             <div class="owl-stage-outer">
               <div class="owl-stage">
                 <!-- Carousel Slide 1 -->
-                <div class="owl-item p-relative overflow-hidden">
+                <div class="owl-item p-relative overflow-visible">
                   <div
                     class="background-image-wrapper p-absolute d-none d-lg-block w-100 h-100 top-0 right-0 bottom-0"
                     style="
                       background-image: url(img/dentist/slides/carousel-1.jpg);
-                      background-size: cover;
+                      background-size: 100%;
                       
                     "
                   ></div>
@@ -294,45 +296,45 @@
                 </div>
 
                 <!-- Carousel Slide 2 -->
-                <div class="owl-item p-relative overflow-hidden">
+                <div class="owl-item p-relative overflow-visible">
                   <div
                     class="background-image-wrapper p-absolute d-none d-lg-block w-100 h-100 top-0 right-0 bottom-0"
                     style="
                       background-image: url(img/dentist/slides/carousel-2.jpg);
-                      background-size: cover;
+                      background-size: 100%;
                     "
                   ></div>
 
                   
                 </div>
-                <div class="owl-item p-relative overflow-hidden">
+                <div class="owl-item p-relative overflow-visible">
                   <div
                     class="background-image-wrapper p-absolute d-none d-lg-block w-100 h-100 top-0 right-0 bottom-0"
                     style="
                       background-image: url(img/dentist/slides/carousel-3.jpg);
-                      background-size: cover;
+                      background-size: 100%;
                     "
                   ></div>
 
                   
                 </div>
-                <div class="owl-item p-relative overflow-hidden">
+                <div class="owl-item p-relative overflow-visible">
                   <div
                     class="background-image-wrapper p-absolute d-none d-lg-block w-100 h-100 top-0 right-0 bottom-0"
                     style="
                       background-image: url(img/dentist/slides/carousel-4.jpg);
-                      background-size: cover;
+                      background-size: 100%;
                     "
                   ></div>
 
                   
                 </div>
-                <div class="owl-item p-relative overflow-hidden">
+                <div class="owl-item p-relative overflow-visible">
                   <div
                     class="background-image-wrapper p-absolute d-none d-lg-block w-100 h-100 top-0 right-0 bottom-0"
                     style="
                       background-image: url(img/dentist/slides/carousel-5.jpg);
-                      background-size: cover;
+                      background-size: 100%;
                     "
                   ></div>
 
@@ -358,7 +360,7 @@
             </div>
           </div>
 
-          <div class="p-absolute custom-el-pos-1 d-none d-xl-block z-index-2">
+          <div class="p-absolute custom-el-pos-1 d-none d-xl-block z-index-1">
             <img
               width="353"
               height="407"
@@ -370,7 +372,7 @@
           </div>
 
           <div
-            class="p-absolute custom-el-pos-2 rotate-l-65 d-none d-xl-block z-index-2"
+            class="p-absolute custom-el-pos-2 rotate-l-90 d-none d-xl-block z-index-1"
           >
             <img
               width="330"
@@ -378,16 +380,18 @@
               src="img/dentist/generic/generic-4.svg"
               alt=""
               data-icon
-              data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
+              data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-tertiary'}"
             />
           </div>
         </div>
 
+       
+
         <div
           id="home-intro"
-          class="home-intro bg-primary p-relative z-index-3 m-0"
+          class="home-intro p-relative pt-2 z-index-3" style="background-color: #C39B4D;"
         >
-          <div class="container py-2">
+          <div class="container py-4">
             <div class="row align-items-center text-center text-md-start">
               <div class="col-lg-12 mb-3 mb-lg-0">
                 <p
@@ -404,11 +408,17 @@
                     ></span
                   >
                 </p>
+                
               </div>
             </div>
           </div>
+          <div id="scroll-down-animation">
+            <span class="mouse">
+              <span class="move"></span>
+            </span>
+          </div>
         </div>
-
+        
         <div class="container my-5">
           <div class="row">
             <div class="col py-4">
@@ -456,7 +466,7 @@
                             src="img/dentist/icons/2.svg"
                             alt=""
                             data-icon
-                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-tertiary mt-1'}"
+                            data-plugin-options="{'onlySVG': true}"
                           />
                         </span>
                         <h4
@@ -484,7 +494,7 @@
                             src="img/dentist/icons/3.svg"
                             alt=""
                             data-icon
-                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-tertiary mt-1'}"
+                            data-plugin-options="{'onlySVG': true }"
                           />
                         </span>
                         <h4
@@ -614,9 +624,6 @@
                       <span
                         class="thumb-info-title bg-transparent w-100 mw-100 p-0 top-0 p-5"
                       >
-                        <span
-                          class="anim-hover-inner-translate-bottom-20px transition-2ms d-inline-block"
-                        >
                           <span class="thumb-info-inner">
                             <h4
                               class="text-color-light text-5 font-weight-bold"
@@ -626,33 +633,7 @@
                           </span>
                         </span>
                       </span>
-                      <span
-                        class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0"
-                      >
-                        <span class="thumb-info-swap-content-wrapper">
-                          <span class="thumb-info-inner text-start ps-5">
-                            <img
-                              style="max-width: 60px"
-                              height="60"
-                              width="60"
-                              class="transform-none mb-3"
-                              src="/img/dentist/icons/icon-4.svg"
-                            />
-                          </span>
-                          <span class="thumb-info-inner text-2">
-                            <p
-                              class="px-5 text-4 text-lg-2 opacity-7 font-weight-medium text-light"
-                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Cras posuere elit in massa congue congue. Ut
-                              ornare fermentum sem, vitae port.
-                            </p>
-                            <a
-                              href="inauguration-detail.html"
-                              class="btn btn-primary btn-arrow-effect-1 py-2 px-3 ms-5 mb-3 text-3 text-lg-1 ls-0 border-0"
-                              >Learn More <i class="fas fa-arrow-right ms-2"></i
-                            ></a>
-                          </span>
+                      
                         </span>
                       </span>
                     </span>
@@ -685,33 +666,7 @@
                           </span>
                         </span>
                       </span>
-                      <span
-                        class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0"
-                      >
-                        <span class="thumb-info-swap-content-wrapper">
-                          <span class="thumb-info-inner text-start ps-5">
-                            <img
-                              style="max-width: 60px"
-                              height="60"
-                              width="60"
-                              class="transform-none mb-3"
-                              src="/img/dentist/icons/icon-5.svg"
-                            />
-                          </span>
-                          <span class="thumb-info-inner text-2">
-                            <p
-                              class="px-5 text-4 text-lg-2 opacity-7 font-weight-medium text-light"
-                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Cras posuere elit in massa congue congue. Ut
-                              ornare fermentum sem, vitae port.
-                            </p>
-                            <a
-                              href="3d-printing.html"
-                              class="btn btn-primary btn-arrow-effect-1 py-2 px-3 ms-5 mb-3 text-3 text-lg-1 ls-0 border-0"
-                              >Learn More <i class="fas fa-arrow-right ms-2"></i
-                            ></a>
-                          </span>
+                  
                         </span>
                       </span>
                     </span>
@@ -744,33 +699,7 @@
                           </span>
                         </span>
                       </span>
-                      <span
-                        class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0"
-                      >
-                        <span class="thumb-info-swap-content-wrapper">
-                          <span class="thumb-info-inner text-start ps-5">
-                            <img
-                              style="max-width: 60px"
-                              height="60"
-                              width="60"
-                              class="transform-none mb-3"
-                              src="/img/dentist/icons/icon-7.svg"
-                            />
-                          </span>
-                          <span class="thumb-info-inner text-2">
-                            <p
-                              class="px-5 text-4 text-lg-2 opacity-7 font-weight-medium text-light"
-                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Cras posuere elit in massa congue congue. Ut
-                              ornare fermentum sem, vitae port.
-                            </p>
-                            <a
-                              href="dac-meeting.html"
-                              class="btn btn-primary btn-arrow-effect-1 py-2 px-3 ms-5 mb-3 text-3 text-lg-1 ls-0 border-0"
-                              >Learn More <i class="fas fa-arrow-right ms-2"></i
-                            ></a>
-                          </span>
+                      
                         </span>
                       </span>
                     </span>
@@ -803,33 +732,7 @@
                           </span>
                         </span>
                       </span>
-                      <span
-                        class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0"
-                      >
-                        <span class="thumb-info-swap-content-wrapper">
-                          <span class="thumb-info-inner text-start ps-5">
-                            <img
-                              style="max-width: 60px"
-                              height="60"
-                              width="60"
-                              class="transform-none mb-3"
-                              src="img/dentist/icons/icon-7.svg"
-                            />
-                          </span>
-                          <span class="thumb-info-inner text-2">
-                            <p
-                              class="px-5 text-4 text-lg-2 opacity-7 font-weight-medium text-light"
-                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Cras posuere elit in massa congue congue. Ut
-                              ornare fermentum sem, vitae port.
-                            </p>
-                            <a
-                              href="pages\activities\external-participations.html"
-                              class="btn btn-primary btn-arrow-effect-1 py-2 px-3 ms-5 mb-3 text-3 text-lg-1 ls-0 border-0"
-                              >Learn More <i class="fas fa-arrow-right ms-2"></i
-                            ></a>
-                          </span>
+                      
                         </span>
                       </span>
                     </span>
@@ -862,33 +765,7 @@
                           </span>
                         </span>
                       </span>
-                      <span
-                        class="thumb-info-title bottom-30 bg-transparent w-100 mw-100 p-0"
-                      >
-                        <span class="thumb-info-swap-content-wrapper">
-                          <span class="thumb-info-inner text-start ps-5">
-                            <img
-                              style="max-width: 60px"
-                              height="60"
-                              width="60"
-                              class="transform-none mb-3"
-                              src="img/dentist/icons/icon-5.svg"
-                            />
-                          </span>
-                          <span class="thumb-info-inner text-2">
-                            <p
-                              class="px-5 text-4 text-lg-2 opacity-7 font-weight-medium text-light"
-                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Cras posuere elit in massa congue congue. Ut
-                              ornare fermentum sem, vitae port.
-                            </p>
-                            <a
-                              href="pages\activities\external-participations.html"
-                              class="btn btn-primary btn-arrow-effect-1 py-2 px-3 ms-5 mb-3 text-3 text-lg-1 ls-0 border-0"
-                              >Learn More <i class="fas fa-arrow-right ms-2"></i
-                            ></a>
-                          </span>
+                      
                         </span>
                       </span>
                     </span>
